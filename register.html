@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IIM B Fest 2024</title>
+  </head>
+  <body>
+    <h2>
+    <a href="./home.html">Click here to go to the Home page </a></h2>
+    
+    <hr>
+    <h2>Register for the Fest</h2>
+    <form action="/register">
+      <label for="name"> Enter your name:</label>
+      <input type="text" name="name" id="name" required minlength="3" maxlength="12">
+      <br><br>
+
+      <label for="email">Enter your email</label>
+
+      <input type="email" name="email" id="email">
+      <br><br>
+      <label for="t_shirt_size">Enter your T-shirt Size</label>
+      <select name="t_shirt_size" id="t_shirt_size">
+      <option value="">--Please Select Option</option>
+      <option value="38">38</option>
+      <option value="40">40</option>
+      <option value="42">42</option>
+      </select>
+
+      <br><br>
+      <label for="checkbox1">Do you agree to all conditions?</label>
+      <input type="checkbox" name="tnc" id="checkbox1"required>
+      <br><br>
+      <label for="alumini">Alumini</label>
+
+      <input type="radio" name="attendee" id="alumini" value="alumini" > 
+      <label for="alumini">Students</label>
+      <input type="radio" name="attendee" id="student" value="student" > 
+      
+      <br><br>
+
+    <button type="submit">Register</button>
+     </form>
+     </main>
+
+  </body>
+</html>
